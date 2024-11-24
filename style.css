@@ -1,0 +1,211 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.servicos-container, .modelos-container, .galeria-container, .missao, .visao, .valores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico, .modelo {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.servico h3, .modelo p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.servico p, .modelo {
+    font-size: 1em;
+    color: #555;
+}
+
+.modelo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.galeria-container img {
+    width: 32%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
+
+/* Seção Missão, Visão e Valores */
+#missao-visao-valores {
+    padding: 40px 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    margin: 20px 0;
+}
+
+#missao-visao-valores h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.missao, .visao, .valores {
+    margin-bottom: 30px;
+}
+
+.missao h3, .visao h3, .valores h3 {
+    font-size: 1.8em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.missao p, .visao p, .valores ul {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.valores ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.valores ul li {
+    margin-bottom: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #missao-visao-valores {
+        padding: 20px 5%;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .missao h3, .visao h3, .valores h3 {
+        font-size: 1.5em;
+    }
+    .missao p, .visao p, .valores ul {
+        font-size: 1em;
+    }
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
